@@ -1,0 +1,9 @@
+database_type = "postgres"
+
+database_name = "postgres"
+database_user = "env:POSTGRES_USER"
+database_password = "env:POSTGRES_PASSWORD"
+
+database_host = "localhost"         # default "localhost"
+database_port = "5432"              # default "5432"
+migration_location = "migrations"   # default "migrations"
